@@ -1,11 +1,7 @@
-#print("importing keras...",end = '')
-#import keras
-#print("done")
 print("importing modules...",end = '')
 import numpy as np
 import cv2
 import mediapipe as mp
-#import pyautogui as pg
 print("done")
 print("waking mmcat up...",end = '')
 from mmcat import mouseModeCAT
@@ -18,9 +14,6 @@ print()
 #IDX = [x for x in range(0,16)] + [y for y in range(24,32)]
 #print("done")
 #print()
-
-#pg.PAUSE = 0
-#pg.FAILSAFE = 0
 
 mp_drawing = mp.solutions.drawing_utils
 mp_hands = mp.solutions.hands
