@@ -6,6 +6,9 @@ print("done")
 print("waking mmcat up...",end = '')
 from mmcat import mouseModeCAT
 print("done")
+print("waking kmcat up...",end = '')
+from kmcat import keyboardModeCAT
+print("done")
 print()
 
 #print("loading EYES...",end = '')
